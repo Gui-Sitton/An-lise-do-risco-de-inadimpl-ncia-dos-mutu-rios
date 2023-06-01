@@ -34,4 +34,5 @@ Depois de analisar os dados, conclui que:
 4. O motivo pelo crédito não é conclusivo, e sim algo pessoal.
 
 **Conclusão Geral**
+
 Pessoas mais ricas que ja passaram ou estão em um casamento com nenhum filho ou mais de dois tendem a pagar mais seus empréstimos.
