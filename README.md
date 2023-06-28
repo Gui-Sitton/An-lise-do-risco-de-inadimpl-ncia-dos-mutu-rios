@@ -30,7 +30,7 @@ Depois de analisar os dados, conclui que:
 
 1. Ter filhos não parece ser um fator que aumente a taxa de inadimplência, pois mesmo que tenha aumentado 2% de 0 filhos para 1, é pouco e com 3 filhos a taxa cai, ficando similar a 0 filhos.
 2. Parece que pessoas que não passaram por um casamento com outra pessoa tem mais tendência a ser inadimplente, mesmo com união civil tendem a ser mais.
-3. O grupo de renda da pessoa também parece não influenciar muito, porém os mais rico tem menor a taxa, seguidos pelos mais pobres. Fazendo comque os grupos do 'meio' sejam os mais inadimplentes.
+3. O grupo de renda da pessoa também parece não influenciar muito, porém os mais rico tem menor a taxa, seguidos pelos mais pobres. Fazendo com que os grupos do 'meio' sejam os mais inadimplentes.
 4. O motivo pelo crédito não é conclusivo, e sim algo pessoal.
 
 **Conclusão Geral**
