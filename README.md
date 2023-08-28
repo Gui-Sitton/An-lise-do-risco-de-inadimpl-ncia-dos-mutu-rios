@@ -1,38 +1,40 @@
-# Análise do risco de inadimplência dos mutuários
-Sou aluno da TripleTen no curso de Ciência de Dados, estou divulgando projetos que desenvolvi para meu portifólio. Este é o segundo projeto.
+# Risk of loan default analysis
 
-Neste projeto prepararei um relatório para a divisão de empréstimos de um banco. Descobri se o estado civil de um cliente e o número de filhos têm impacto sobre a inadimplência de um empréstimo. O banco já tem alguns dados sobre a capacidade de crédito dos clientes.
-Devo criar uma pontuação de crédito de um cliente em potencial. Uma pontuação de crédito é usada para avaliar a capacidade de um devedor em potencial de pagar seu empréstimo.
 
-**Perguntas Respondidas no Projeto**
-1. Existe alguma relação entre ter filhos e pagar um empréstimo em dia?
-2. Existe alguma relação entre o estado civil e o pagamento de um empréstimo no prazo estipulado?
-3. Existe uma relação entre o nível de renda e o pagamento de um empréstimo no prazo?
-4. Como as diferentes finalidades do empréstimo afetam o pagamento pontual do empréstimo?
+In this project I will prepare a report for the loan division of a bank. I'm finding out whether a customer's marital status and number of children have an impact on loan default. The bank already has some data on customers' creditworthiness.
+I need to create a credit score for a potential customer. A credit score is used to assess a potential borrower's ability to repay their loan.
 
-**Descrição das Colunas**
-* children : o número de crianças na família
-* days_employed : quanto tempo o cliente trabalhou
-* dob_years : a idade do cliente
-* education : o nível de educação do cliente
-* education_id : identificador da educação do cliente
-* family_status : estado civil do cliente
-* family_status_id : identificador do estado civil do cliente
-* gender : o sexo do cliente
-* income_type : o tipo de renda do cliente
-* debt : se o cliente já deixou de pagar um empréstimo
-* total_income : renda mensal
-* purpose : motivo para fazer um empréstimo
+**Questions Answered in the Project**
 
-**Conclusões** 
+1. is there any relationship between having children and paying back a loan on time?
+2. Is there any relationship between marital status and paying back a loan on time?
+3. Is there a relationship between income level and paying back a loan on time?
+4. How do the different purposes of the loan affect the timely payment of the loan?
 
-Depois de analisar os dados, conclui que:
+**Column Description**
 
-1. Ter filhos não parece ser um fator que aumente a taxa de inadimplência, pois mesmo que tenha aumentado 2% de 0 filhos para 1, é pouco e com 3 filhos a taxa cai, ficando similar a 0 filhos.
-2. Parece que pessoas que não passaram por um casamento com outra pessoa tem mais tendência a ser inadimplente, mesmo com união civil tendem a ser mais.
-3. O grupo de renda da pessoa também parece não influenciar muito, porém os mais rico tem menor a taxa, seguidos pelos mais pobres. Fazendo com que os grupos do 'meio' sejam os mais inadimplentes.
-4. O motivo pelo crédito não é conclusivo, e sim algo pessoal.
+* children : the number of children in the family
+* days_employed : how long the client has worked
+* dob_years : the client's age
+* education : the client's level of education
+* education_id : customer's education identifier
+* family_status : customer's marital status
+* family_status_id : customer's marital status identifier
+* gender : customer's sex
+* income_type : customer's type of income
+* debt : if the client has already defaulted on a loan
+* total_income : monthly income
+* purpose : reason for taking out a loan
 
-**Conclusão Geral**
+**Conclusions**
 
-Pessoas mais ricas que ja passaram ou estão em um casamento com nenhum filho ou mais de dois tendem a pagar mais seus empréstimos.
+After analyzing the data, I concluded that:
+
+1. having children does not seem to be a factor that increases the default rate, because even if it has increased by 2% from 0 children to 1, it is little and with 3 children the rate drops, becoming similar to 0 children.
+2. It seems that people who have not been married to another person are more likely to default, even if they have a civil partnership.
+3. The person's income group doesn't seem to have much influence either, but the richest have the lowest rate, followed by the poorest. This makes the 'middle' groups the most likely to default.
+4. The reason for credit is not conclusive, but something personal.
+
+**General conclusion**
+
+Wealthier people who have been through or are in a marriage with no children or more than two tend to pay back their loans more.
